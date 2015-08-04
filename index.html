@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <title>Local Storage Project</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="questWrap">
+    <header>
+      <h1>Grail Seekers</h1>
+      <h3>A networking site for those on a quest for the Grail</h3>
+    </header>
+    <div id="content">
+      <section id="login">
+        <form>
+          <button id="signIn">Sign In</button>
+          <button id="createAccount">Create a New Account</button>
+        </form>
+      </section>
+    </div><!-- end content wrap -->
+    <div id="modal">
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="What is your name?"/><br/>
+        <label for="location">Location</label>
+        <input type="text" id="location" placeholder="Where did your quest begin?"/><br/>
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your email"/><br/>
+        <label for="color">Favorite Color</label>
+        <input type="text" id="color" placeholder="What is your favorite color?"/><br/>
+        <label for="quest">Quest</label>
+        <input type="text" id="quest" placeholder="What is your quest?"/><br/>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="write"></div>
+  </div><!-- end questWrap -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src='js/script.js'></script>
+</body>
+</html>
